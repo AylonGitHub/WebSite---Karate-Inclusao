@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    
+   
+}
+header{
+    width: 100%;
+    height: auto;  
+    
+}
+ header #projeto{
+    width:100%;
+    position: fixed;
+    z-index: 4;
+    background-color:rgba(8, 114, 70, 0.6) ;
+    display: inline;
+    justify-content: flex-end;
+    flex-direction: column;
+    height:12%;
+}
+header #projeto p{
+     float: left;
+     color:white;
+     text-decoration: none;
+     position:fixed;
+     margin:11px 20% 0 5%;
+     
+}
+header #projeto h3{
+    float: right;
+    color: white;
+    margin-top:18px;
+    font-size: 13pt;
+    font-family: arial;
+}
+
+header #cab h4{
+    float:right;
+    font-family: arial;
+    width: 100PX;
+    position:fixed
+
+}
+
+
+#apoio{
+    width: 91%;
+    height: auto;
+    float: left;
+    color: rgb(8, 27, 114);
+    
+  
+}
+#apoio p{
+    font-size: 12pt;
+    
+   
+}
+#apoio p strong{
+    font-size: 16pt;
+}
+#amarela  img{
+    width: 60px;
+    margin-right: 10px;
+}
+#azul  img{
+    width: 60px;
+    margin-right: 10px;
+}
+#vermelha  img{
+    width: 60px;
+    margin-right: 10px;
+}
+#amarela{
+    width: 100%;
+    height:auto;
+    background-color: rgb(233, 233, 84);
+    font-family: Arial;
+    padding: 10px 5%;
+    float: left;
+    display: flex;
+    align-items: center;
+ 
+ 
+   
+  
+    
+    
+}
+#azul{
+    width: 100%;
+    height: auto;
+    background-color: rgb(130, 163, 201);
+    font-family: Arial;
+    padding: 10px 5%;
+    float: left;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+}
+#vermelha{
+    width: 100%;
+    height: auto;
+    background-color: rgb(98, 165, 107);
+    font-family: Arial;
+    padding: 10px 5%;
+    float: left;
+    display: flex;
+    align-items: center;
+   
+
+}
+#projeto p{
+    font-family: arial;
+    font-size: 12pt;
+    margin: 0 0 1% 5%;
+    
+   
+    
+    
+   
+  
+}
+#titulo{
+    width: 100%;
+    background-color: rgb(8, 27, 114);
+    color: white;
+    padding: 0%;
+    float: left;
+    margin-bottom: 0%;
+}
+#titulo h1{
+    font-family: arial;
+    font-size: 30pt;
+    margin: 1% 0 0 5%;
+    padding-top: 20px;
+}
+#titulo h3{
+    margin: 0 0 25px 5%;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: arial;
+    font-size: 30pt;
+    text-align: center;
+    float: left;
+}
+
+h3{
+    font-family: arial;
+    margin: 0 5% 1% 5%;   
+    
+}
+
+.conteudo p{
+    font-family: arial;
+    margin: 0 5%;
+    text-align: justify;
+}
+.conteudo{
+    width: 100%;
+    float: left;
+    color:rgb(8, 27, 114);
+
+}
+.conteudo h2 {
+    width: 100%;
+    
+  
+    
+ 
+}
+
+#base_cient{
+    background-color:rgb(8, 27, 114);
+    padding: 5% 0 0 0;
+    margin: 5% 0;
+    color: white;
+    width: 100%;
+    height: auto;
+    float: left;
+   
+}
+#arquivo {
+    width: 100%; 
+    float: left;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+#arquivo a{
+    width: 40px;
+    margin: 3% 3%;
+}
+#arquivo img{
+    width: 40px;
+    margin: 3% 3%;
+}
+
+#base_cient h3{
+    text-align: center;
+}
+
+#depoimentos h3{
+     text-align: center;
+
+     
+}
+#videos{
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+    
+}
+
+#video_01, #video_02, #video_03, #video_04{
+    width: 300px;
+    height: 250px;
+    background-color: #eee;
+    display: inline-block;
+    margin: 1%;   
+    
+}
+#perfil{
+    background-color: rgb(8, 27, 114);
+    padding: 5% 0;
+    width: 100%;
+    height: auto; 
+    float: left; 
+}
+
+#perfil_h3 h3{
+    font-family: arial;
+    margin: 0 5% 1% 5%; 
+}
+#perfil01{
+    min-width: 100%;
+ 
+   
+}
+#perfil02{
+     width: 100%;
+     justify-content: center;
+     display: flex;
+    
+     
+     
+     margin: 1% 0 0 0;    
+}
+#perfil01 h3{
+     text-align: center;
+     color: white;
+}
+#perfil p{
+     color: white;
+        font-family: arial;
+        margin: 0 5%;
+        text-align: justify;
+}
+#perfil02 img{
+    border-radius: 100%;
+    width: 200px;
+    
+}
+
+#galeria_h3{
+    width: 100%;
+    text-align: center;
+    font-family: arial black;
+    font-size: 13pt;
+    float: left;
+    padding: 5% 0%;
+    color:rgb(8, 27, 114);
+      
+}
+
+#galeria_imagens{
+    padding: 0%;
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#galeria_imagens img{
+    width: 300px;
+    margin: 10px;
+    
+}
+
+#apoiadores{
+    background-color: rgb(8, 27, 114);
+    width: 100%;
+    float: left;
+}
+#apoiadores h3{
+    text-align: center;
+    margin: 5%;
+    color: white;
+}
+#apoiadores h1{
+    font-family: arial;
+    font-size: 30pt;
+    text-align: center;
+    margin: 5%;
+    color: white;
+}
+#apoiadores form{
+   
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+   
+}
+#apoiadores input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    background-color: none;
+    text-align: center;
+    font-size: 12pt;
+   
+}
+#redes {
+    width: 100%;
+    float: left;
+    color:rgb(8, 27, 114);
+    
+    
+    
+}
+#redes h1{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;  
+}
+#redes #icones{
+    width: 40%;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+   
+     
+}
+#redes #icones a{
+    height: 60px;
+    width: 60px;
+    margin:  5%;
+}
+#redes #icones img{
+    height: 60px;
+    width: 60px;
+    margin:  5%;
+   
+}
+
+#whats{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    float: left;
+   
+}
+ #whats a{
+     font-family: arial;
+    font-size: 20px; 
+    background-color:#1CD10E; 
+    float: left;
+    
+}
+
+#btn{
+    width: 150px;
+    height: 45px;
+    background-color:#1CD10E;
+    border-radius: 10px; 
+    display: block;
+    float: left;
+}
+
+
+/*///// Página Login /////*/
+
+#corpo-form{
+    
+    width: 100%;
+    height: 350px;
+ 
+    text-align: center;
+    margin-top: 10%;
+    
+   
+   
+}
+#corpo-form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10pt;
+    text-align: center;
+    font-size: 14pt;
+    margin: 15px 0;
+    border-color: #ccc;
+}
+#corpo-form h1{
+    font-family: arial;
+    margin-top: 20px;
+    color: rgb(8, 27, 114);
+}
+.msg-erro{
+    text-align: center;
+    font-family: arial;
+}
+#sair{
+    font-family: arial;
+    font-size: 14pt;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccc;
+    margin: 2% 30% ;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px 0;
+  
+}
+#table_cab{
+    height: 50px;
+}
+#tudo_formulario{
+    width: 100%;
+    font-family: arial;
+}
+#form_busca input{
+    height: 40px;
+    width: 60%;
+    margin: 10px 10px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 12pt;
+   
+}
+#form_busca button{
+    height: 40px;
+    width: 25%;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 12pt;
+   
+}
+
+  
